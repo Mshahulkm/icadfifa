@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ICAD FIFA World Cup 2026 — Prediction Contest</title>
+<meta name="description" content="ICAD & MBL Group FIFA World Cup 2026 Prediction Contest. Predict. Compete. Win.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="#home" class="logo" id="brand">ICAD</a>
+  <ul id="navList">
+    <li><a href="#home" data-link="home">HOME</a></li>
+    <li><a href="#rules-sec" data-link="rules-sec">RULES</a></li>
+    <li><a href="#leaderboard-sec" data-link="leaderboard-sec">LEADERBOARD</a></li>
+    <li><a href="#prizes-sec" data-link="prizes-sec">PRIZES</a></li>
+    <li><a href="#winners-sec" data-link="winners-sec">WINNERS</a></li>
+    <li><a href="#faq-sec" data-link="faq-sec">FAQ</a></li>
+    <li><a href="#contact-sec" data-link="contact-sec">CONTACT</a></li>
+  </ul>
+  <div class="actions">
+    <a id="navRegister" class="btn btn-primary" href="#" target="_blank" rel="noopener">Register Now</a>
+    <button id="menuBtn" class="menu-btn" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="spotlights"><span></span><span></span><span></span><span></span></div>
+  <div class="container hero-content">
+    <span class="eyebrow" id="heroEyebrow">ICAD FIFA WORLD CUP 2026</span>
+    <h1 id="heroTitle"></h1>
+    <p class="tagline" id="heroTagline">Predict. Compete. Win.</p>
+    <p class="note" id="heroNote"></p>
+    <div class="ctas">
+      <a id="registerBtn" class="btn btn-primary" href="#" target="_blank" rel="noopener">Register Now</a>
+      <a class="btn btn-ghost" href="#rules-sec">View Rules</a>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#countdown-sec">▼</a>
+</header>
+
+<section id="countdown-sec" class="countdown-section">
+  <div class="container">
+    <div class="section-eyebrow">Countdown to Kickoff</div>
+    <h2 class="section-title">FIFA World Cup 2026 Opening Match</h2>
+    <div class="countdown">
+      <div class="cd-box"><div class="cd-value" id="cdDays">00</div><div class="cd-label">Days</div></div>
+      <div class="cd-box"><div class="cd-value" id="cdHours">00</div><div class="cd-label">Hours</div></div>
+      <div class="cd-box"><div class="cd-value" id="cdMins">00</div><div class="cd-label">Minutes</div></div>
+      <div class="cd-box"><div class="cd-value" id="cdSecs">00</div><div class="cd-label">Seconds</div></div>
+    </div>
+    <div class="stats-row" id="stats"></div>
+  </div>
+</section>
+
+<section id="about-sec">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <div class="section-eyebrow" id="aboutEyebrow"></div>
+        <h2 class="section-title" id="aboutTitle"></h2>
+        <p id="aboutBody"></p>
+        <a class="btn btn-ghost" href="#rules-sec">Learn the Rules →</a>
+      </div>
+      <div class="about-card reveal">
+        <h3>Join the Competition · 15 SR</h3>
+        <ul class="elig-list" id="eligList"></ul>
+        <div style="margin-top:24px"><a id="registerBtn2" class="btn btn-primary" href="#" target="_blank" rel="noopener" style="width:100%;justify-content:center">Register on Strawpoll</a></div>
+        <p style="color:var(--muted);font-size:13px;text-align:center;margin-top:14px">Registration closes before tournament starts</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="rules-sec">
+  <div class="container">
+    <div class="head">
+      <div class="section-eyebrow">Contest Rules</div>
+      <h2 class="section-title">ഫിഫാ വേൾഡ്‌ കപ്പ് മെഗാ പ്രവചന മത്സരം 2026</h2>
+      <p>നിബന്ധനകൾ / മത്സരിക്കേണ്ട രീതി</p>
+    </div>
+    <div class="rules-grid" id="rules"></div>
+  </div>
+</section>
+
+<section id="news-sec">
+  <div class="container">
+    <div class="head">
+      <div class="section-eyebrow">Tournament Updates</div>
+      <h2 class="section-title">FIFA World Cup 2026 Updates</h2>
+    </div>
+    <div class="news-grid" id="news"></div>
+  </div>
+</section>
+
+<section id="announcements-sec">
+  <div class="container">
+    <div class="head">
+      <div class="section-eyebrow">Stay Informed</div>
+      <h2 class="section-title">Admin Announcements</h2>
+    </div>
+    <div class="ann-list" id="announcements"></div>
+  </div>
+</section>
+
+<section id="leaderboard-sec">
+  <div class="container">
+    <div class="head">
+      <div class="section-eyebrow">Competition Standings</div>
+      <h2 class="section-title">Live Leaderboard</h2>
+      <p>Points updated after each matchday</p>
+    </div>
+    <div class="lb-wrap reveal">
+      <table class="lb-table">
+        <thead><tr><th>Rank</th><th>Name</th><th>Points</th></tr></thead>
+        <tbody id="lbBody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="winners-sec">
+  <div class="container">
+    <div class="head">
+      <div class="section-eyebrow">Hall of Fame</div>
+      <h2 class="section-title">Previous Winners</h2>
+    </div>
+    <div class="winners-grid" id="winners"></div>
+  </div>
+</section>
+
+<section id="prizes-sec">
+  <div class="container">
+    <div class="head">
+      <div class="section-eyebrow">What's at Stake</div>
+      <h2 class="section-title">Prizes & Rewards</h2>
+    </div>
+    <div class="prizes-grid" id="prizes"></div>
+  </div>
+</section>
+
+<section id="faq-sec">
+  <div class="container">
+    <div class="head">
+      <div class="section-eyebrow">Questions?</div>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="faq" id="faq"></div>
+  </div>
+</section>
+
+<section id="contact-sec">
+  <div class="container">
+    <div class="head">
+      <div class="section-eyebrow">Get in Touch</div>
+      <h2 class="section-title">Contact the Committee</h2>
+    </div>
+    <div class="contact-card reveal">
+      <h3>ICAD FIFA 2026 Prediction Committee</h3>
+      <div class="contact-grid">
+        <div class="contact-item"><div class="label">WhatsApp</div><div class="val" id="cWhatsapp"></div></div>
+        <div class="contact-item"><div class="label">Telegram</div><div class="val" id="cTelegram"></div></div>
+        <div class="contact-item"><div class="label">Email</div><div class="val" id="cEmail"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 ICAD FIFA Prediction Contest · All content editable in <code>data.json</code></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

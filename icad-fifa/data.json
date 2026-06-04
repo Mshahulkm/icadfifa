@@ -1,0 +1,89 @@
+{
+  "site": {
+    "brand": "ICAD",
+    "title": "ICAD FIFA World Cup 2026 Prediction Contest",
+    "registerUrl": "https://strawpoll.com/jVyG2aRKzZ7",
+    "kickoffDate": "2026-06-11T20:00:00Z"
+  },
+  "hero": {
+    "eyebrow": "ICAD FIFA WORLD CUP 2026",
+    "title": "PREDICTION CONTEST",
+    "tagline": "Predict. Compete. Win.",
+    "note": "Registration Now Open — 15 SR Entry Fee"
+  },
+  "stats": [
+    { "value": "48", "label": "Teams" },
+    { "value": "104", "label": "Matches" },
+    { "value": "3", "label": "Host Nations" },
+    { "value": "1", "label": "Champion" }
+  ],
+  "about": {
+    "eyebrow": "ABOUT THE CONTEST",
+    "title": "Bring Your Football Knowledge to the Ultimate Test",
+    "body": "The ICAD FIFA World Cup 2026 Prediction Contest brings together football enthusiasts from ICAD & MBL Group to predict match outcomes throughout the FIFA World Cup 2026 tournament. Participants earn points through accurate predictions and compete for exciting prizes while enjoying the world's biggest football event."
+  },
+  "eligibility": ["ICAD Employees", "MBL Employees", "Ex-Employees"],
+  "rules": [
+    "മത്സരത്തിൽ പങ്കെടുക്കുന്ന വ്യക്തി Prediction Group-ൽ അംഗമായിരിക്കണം.",
+    "പങ്കെടുക്കുന്നതിന് 15 SR എൻട്രി ഫീ ഉണ്ടായിരിക്കുന്നതാണ്.",
+    "ICAD & MBL ഗ്രൂപ്പിലെ എല്ലാ കമ്പനി എംപ്ലോയീസിനും EX-എംപ്ലോയീസിനും പങ്കെടുക്കാം.",
+    "നിയമാവലികൾ കൃത്യമായി പാലിക്കണം.",
+    "ടൂർണമെൻറ് അവസാനം വരെ എല്ലാ പ്രവചനങ്ങളും നൽകണം.",
+    "ഓരോ അംഗത്തിനും ഒരു പ്രവചനം മാത്രം.",
+    "ഒന്നിലധികം എൻട്രികൾ അസാധുവാക്കും.",
+    "ചോദ്യങ്ങൾ ഗ്രൂപ്പിൽ നൽകുന്ന ലിങ്ക് വഴി സമർപ്പിക്കണം.",
+    "മത്സരദിന പ്രവചനങ്ങളും ബോണസ് ചോദ്യങ്ങളും ഉണ്ടായിരിക്കും.",
+    "മത്സരത്തിന് 2 മണിക്കൂർ മുമ്പ് പ്രവചനം സമർപ്പിക്കണം.",
+    "3 പോയിന്റ് ചോദ്യങ്ങളും 5 പോയിന്റ് ബോണസ് ചോദ്യങ്ങളും ഉണ്ടായിരിക്കും.",
+    "വ്യത്യസ്ത പ്രവചന ചോദ്യങ്ങൾ ടൂർണമെൻറ് മുഴുവൻ ഉണ്ടായിരിക്കും.",
+    "ഓരോ മത്സരദിനത്തിനും ശേഷം പോയിന്റ് പട്ടിക പ്രസിദ്ധീകരിക്കും.",
+    "കൂടുതൽ പോയിന്റ് നേടുന്നവർക്ക് ആകർഷക സമ്മാനങ്ങൾ ലഭിക്കും."
+  ],
+  "news": [
+    { "title": "48 Teams", "body": "Expanded from 32 to 48 teams — the biggest World Cup ever." },
+    { "title": "104 Matches", "body": "Tournament increased from 64 matches to 104 matches across 40 days." },
+    { "title": "Three Host Nations", "body": "USA, Canada and Mexico jointly host the tournament across 16 cities." },
+    { "title": "New Format", "body": "12 groups of 4 teams, with Round of 32 added before Round of 16." }
+  ],
+  "announcements": [
+    { "tag": "Admin Updates", "date": "01 May 2026", "title": "Registration Open", "body": "Registration for FIFA 2026 Prediction Contest has started. Submit your entry fee of 15 SR and join the prediction group to participate." },
+    { "tag": "Important Notices", "date": "15 May 2026", "title": "Rules Published", "body": "Complete contest rules are now available in Malayalam. Please read carefully before participating. All participants must follow the rules strictly." },
+    { "tag": "Schedule Changes", "date": "01 June 2026", "title": "Tournament Format Update", "body": "FIFA World Cup 2026 features 48 teams, 104 matches across USA, Canada and Mexico. New format includes 12 groups of 4 teams and Round of 32." },
+    { "tag": "Prize Announcements", "date": "10 June 2026", "title": "Prize Pool Announcement", "body": "Exciting cash prizes for Champion, Runner Up, and Third Place. Special bonus prizes for top bonus question winners throughout the tournament!" }
+  ],
+  "leaderboard": [
+    { "rank": 1, "name": "Mohammed Ali", "points": 245 },
+    { "rank": 2, "name": "Ahmed Hassan", "points": 238 },
+    { "rank": 3, "name": "Omar Farooq", "points": 231 },
+    { "rank": 4, "name": "Khalid Ibrahim", "points": 225 },
+    { "rank": 5, "name": "Youssef Nasser", "points": 219 },
+    { "rank": 6, "name": "Tariq Mahmoud", "points": 212 },
+    { "rank": 7, "name": "Fahad Al-Rashid", "points": 205 },
+    { "rank": 8, "name": "Samir Khaled", "points": 198 },
+    { "rank": 9, "name": "Nasser Abdullah", "points": 192 },
+    { "rank": 10, "name": "Hisham Saeed", "points": 185 }
+  ],
+  "winners": [
+    { "name": "Mohammed Ali", "year": "World Cup 2022", "title": "Champion", "image": "assets/winner-1.svg" },
+    { "name": "Ahmed Hassan", "year": "World Cup 2022", "title": "Runner Up", "image": "assets/winner-2.svg" },
+    { "name": "Omar Farooq", "year": "World Cup 2022", "title": "Third Place", "image": "assets/winner-3.svg" }
+  ],
+  "prizes": [
+    { "title": "Champion", "body": "Cash Prize + Trophy", "icon": "🏆" },
+    { "title": "Runner Up", "body": "Cash Prize", "icon": "🥈" },
+    { "title": "Third Place", "body": "Cash Prize", "icon": "🥉" },
+    { "title": "Special Bonus Winners", "body": "Additional prizes for bonus question winners throughout the tournament", "icon": "🎁" }
+  ],
+  "faq": [
+    { "q": "Who can participate?", "a": "All current and former employees of ICAD and MBL Group are welcome to join the contest." },
+    { "q": "What is the entry fee?", "a": "The entry fee is 15 Saudi Riyals, payable when you register through the official link." },
+    { "q": "How are points calculated?", "a": "Regular prediction questions are worth 3 points and bonus questions are worth 5 points each." },
+    { "q": "Can I submit multiple predictions?", "a": "No. Each participant may submit only one entry. Multiple entries will be disqualified." },
+    { "q": "When is the leaderboard updated?", "a": "The leaderboard is updated and published after every matchday throughout the tournament." }
+  ],
+  "contact": {
+    "whatsapp": "+966-XX-XXX-XXXX",
+    "telegram": "@icad_fifa2026",
+    "email": "fifa2026@icad.com"
+  }
+}
