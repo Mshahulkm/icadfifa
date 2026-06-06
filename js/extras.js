@@ -154,7 +154,7 @@
     issueTitlePrefix: '[VOTE] ',     // pre-filled issue title
     cacheMs: 30 * 1000,              // client cache to respect rate limit
   };
-  const POLL_USER_KEY = 'icad_fifa_poll_user_vote_v2';
+  const POLL_USER_KEY = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS45AtPSBrMYshJPmafGU2-lCWFfiVYeEhTDtW8azDoq1xULfcxYY8pqtS-4PiSxjdMYxh50iMwpzuo/pub?output=csv';
 
   let TEAM_CODES = {};
   let TEAM_LIST  = [];
