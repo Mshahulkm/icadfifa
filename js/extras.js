@@ -138,8 +138,8 @@
           auto-pick the first column whose header contains "team".
      No backend, no token, no rate-limit issues for normal traffic.
   ====================================================== */
-  const POLL_CSV_URL = ''; // e.g. 'https://docs.google.com/spreadsheets/d/e/XXXX/pub?gid=0&single=true&output=csv'
-  const TEAM_COLUMN  = ''; // e.g. 'Which team will lift the FIFA World Cup 2026 trophy?'
+  const POLL_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS45AtPSBrMYshJPmafGU2-lCWFfiVYeEhTDtW8azDoq1xULfcxYY8pqtS-4PiSxjdMYxh50iMwpzuo/pub?output=csv'; // e.g. 'https://docs.google.com/spreadsheets/d/e/XXXX/pub?gid=0&single=true&output=csv'
+  const TEAM_COLUMN  = ' Which is your favorite football team in the FIFA World Cup 2026? '; // e.g. 'Which team will lift the FIFA World Cup 2026 trophy?'
   const POLL_CACHE_MS = 30 * 1000;
 
   let TEAM_CODES = {};
