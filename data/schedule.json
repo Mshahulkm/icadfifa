@@ -1,0 +1,20 @@
+{
+  "matches": [
+    { "date": "2026-06-11", "time": "18:00", "venue": "Estadio Azteca, Mexico City",   "home": "Mexico",      "homeCode": "mx", "away": "Saudi Arabia",  "awayCode": "sa", "stage": "Group A" },
+    { "date": "2026-06-11", "time": "21:00", "venue": "BMO Field, Toronto",            "home": "Canada",      "homeCode": "ca", "away": "Iran",          "awayCode": "ir", "stage": "Group B" },
+    { "date": "2026-06-12", "time": "18:00", "venue": "SoFi Stadium, Los Angeles",     "home": "USA",         "homeCode": "us", "away": "Morocco",       "awayCode": "ma", "stage": "Group C" },
+    { "date": "2026-06-12", "time": "21:00", "venue": "MetLife Stadium, New Jersey",   "home": "Argentina",   "homeCode": "ar", "away": "Norway",        "awayCode": "no", "stage": "Group A" },
+    { "date": "2026-06-13", "time": "18:00", "venue": "AT&T Stadium, Dallas",          "home": "France",      "homeCode": "fr", "away": "Senegal",       "awayCode": "sn", "stage": "Group B" },
+    { "date": "2026-06-13", "time": "21:00", "venue": "Lumen Field, Seattle",          "home": "England",     "homeCode": "gb-eng", "away": "Uzbekistan","awayCode": "uz", "stage": "Group C" },
+    { "date": "2026-06-14", "time": "18:00", "venue": "Mercedes-Benz Stadium, Atlanta","home": "Spain",       "homeCode": "es", "away": "Cape Verde",    "awayCode": "cv", "stage": "Group D" },
+    { "date": "2026-06-14", "time": "21:00", "venue": "Arrowhead Stadium, Kansas City","home": "Germany",     "homeCode": "de", "away": "New Zealand",   "awayCode": "nz", "stage": "Group E" },
+    { "date": "2026-06-15", "time": "18:00", "venue": "Hard Rock Stadium, Miami",      "home": "Brazil",      "homeCode": "br", "away": "Jordan",        "awayCode": "jo", "stage": "Group F" },
+    { "date": "2026-06-15", "time": "21:00", "venue": "Estadio Akron, Guadalajara",    "home": "Portugal",    "homeCode": "pt", "away": "Ghana",         "awayCode": "gh", "stage": "Group G" },
+    { "date": "2026-06-16", "time": "18:00", "venue": "NRG Stadium, Houston",          "home": "Netherlands", "homeCode": "nl", "away": "Curaçao",       "awayCode": "cw", "stage": "Group H" },
+    { "date": "2026-06-16", "time": "21:00", "venue": "Levi's Stadium, Bay Area",      "home": "Belgium",     "homeCode": "be", "away": "Ivory Coast",   "awayCode": "ci", "stage": "Group I" },
+    { "date": "2026-06-17", "time": "18:00", "venue": "Lincoln Financial Field, Philly","home": "Italy",      "homeCode": "it", "away": "Haiti",         "awayCode": "ht", "stage": "Group J" },
+    { "date": "2026-06-17", "time": "21:00", "venue": "Gillette Stadium, Boston",      "home": "Denmark",     "homeCode": "dk", "away": "Iraq",          "awayCode": "iq", "stage": "Group K" },
+    { "date": "2026-06-18", "time": "18:00", "venue": "Estadio BBVA, Monterrey",       "home": "Austria",     "homeCode": "at", "away": "Jamaica",       "awayCode": "jm", "stage": "Group L" },
+    { "date": "2026-06-18", "time": "21:00", "venue": "MetLife Stadium, New Jersey",   "home": "Nigeria",     "homeCode": "ng", "away": "Scotland",      "awayCode": "gb-sct", "stage": "Group L" }
+  ]
+}

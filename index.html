@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ICAD FIFA World Cup 2026 Prediction Contest</title>
+<meta name="description" content="ICAD FIFA World Cup 2026 Prediction Contest for ICAD & MBL employees. Predict. Compete. Win." />
+<meta name="keywords" content="ICAD FIFA World Cup 2026, Prediction Contest, MBL, Football Prediction Saudi Arabia" />
+<meta property="og:title" content="ICAD FIFA World Cup 2026 Prediction Contest" />
+<meta property="og:description" content="Predict. Compete. Win. Join the ICAD & MBL FIFA 2026 Prediction Contest." />
+<meta property="og:type" content="website" />
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/extras.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-ball"><i class="fa-solid fa-futbol"></i></div>
+  <div class="loader-text">LOADING ICAD FIFA 2026</div>
+</div>
+
+<!-- Cursor glow -->
+<div id="cursorGlow"></div>
+
+<!-- Background particles -->
+<canvas id="particles"></canvas>
+
+<div id="progressBar"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <span class="brand-icon"><i class="fa-solid fa-futbol"></i></span>
+      ICAD <span class="text-gold">FIFA</span> 2026
+    </a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMain"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#groups">Groups</a></li>
+        <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+        <li class="nav-item"><a class="nav-link" href="#poll">Poll</a></li>
+        <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="#rules">Rules</a></li>
+        <li class="nav-item"><a class="nav-link" href="#leaderboard">Leaderboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <i class="fa-solid fa-trophy trophy"></i>
+
+  <!-- Floating shapes -->
+  <span class="shape shape-1"><i class="fa-solid fa-futbol"></i></span>
+  <span class="shape shape-2"><i class="fa-solid fa-star"></i></span>
+  <span class="shape shape-3"><i class="fa-solid fa-medal"></i></span>
+  <span class="shape shape-4"><i class="fa-solid fa-futbol"></i></span>
+
+  <div class="container position-relative" data-aos="fade-up">
+    <p class="tagline shimmer">FIFA WORLD CUP • 2026</p>
+    <h1 class="hero-title">
+      <span class="word">ICAD</span>
+      <span class="word">FIFA</span>
+      <span class="word">WORLD</span>
+      <span class="word">CUP</span>
+      <span class="word gold-word">2026</span><br>
+      <span class="word small">PREDICTION</span>
+      <span class="word small">CONTEST</span>
+    </h1>
+    <p class="lead-sub mt-3"><strong>Predict.</strong> <strong>Compete.</strong> <strong>Win.</strong> &nbsp;•&nbsp; Registration Now Open</p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap mt-4" data-aos="zoom-in" data-aos-delay="400">
+      <a href="https://strawpoll.com/jVyG2aRKzZ7" target="_blank" rel="noopener" class="btn btn-fifa shine" onclick="fireConfetti()">
+        <i class="fa-solid fa-futbol me-2"></i>Register Now
+      </a>
+      <a href="#rules" class="btn btn-ghost"><i class="fa-solid fa-book me-2"></i>View Rules</a>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span></span></div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>⚽ 48 TEAMS</span><span>★</span>
+    <span>104 MATCHES</span><span>★</span>
+    <span>3 HOST NATIONS</span><span>★</span>
+    <span>USA • CANADA • MEXICO</span><span>★</span>
+    <span>JUNE 11 — JULY 19, 2026</span><span>★</span>
+    <span>ICAD × MBL PREDICTION CONTEST</span><span>★</span>
+    <span>⚽ 48 TEAMS</span><span>★</span>
+    <span>104 MATCHES</span><span>★</span>
+    <span>3 HOST NATIONS</span><span>★</span>
+    <span>USA • CANADA • MEXICO</span><span>★</span>
+    <span>JUNE 11 — JULY 19, 2026</span><span>★</span>
+    <span>ICAD × MBL PREDICTION CONTEST</span><span>★</span>
+  </div>
+</div>
+
+<!-- COUNTDOWN -->
+<section class="section" id="countdown">
+  <div class="container text-center" data-aos="fade-up">
+    <p class="section-kicker">Kick-Off Begins In</p>
+    <h2 class="section-title">FIFA 2026 Opening Match</h2>
+    <p class="section-sub">11 June 2026 · Estadio Azteca, Mexico City · 12:00 local (18:00 UTC)</p>
+    <div class="countdown">
+      <div class="cd-box tilt"><div class="cd-num" id="cd-days">00</div><div class="cd-label">Days</div></div>
+      <div class="cd-box tilt"><div class="cd-num" id="cd-hours">00</div><div class="cd-label">Hours</div></div>
+      <div class="cd-box tilt"><div class="cd-num" id="cd-mins">00</div><div class="cd-label">Minutes</div></div>
+      <div class="cd-box tilt"><div class="cd-num" id="cd-secs">00</div><div class="cd-label">Seconds</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT + STATS -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">About the Contest</p>
+      <h2 class="section-title">Where Passion Meets Prediction</h2>
+      <p class="section-sub">
+        The ICAD FIFA World Cup 2026 Prediction Contest brings together football enthusiasts from ICAD &amp; MBL Group
+        to predict match outcomes throughout the FIFA World Cup 2026 tournament. Participants earn points through
+        accurate predictions and compete for exciting prizes while enjoying the world's biggest football event.
+      </p>
+    </div>
+    <div class="row g-4 text-center mt-4">
+      <div class="col-6 col-md-3" data-aos="zoom-in"><div class="glass tilt"><div class="stat-num counter" data-target="48">0</div><div class="stat-label">Teams</div></div></div>
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100"><div class="glass tilt"><div class="stat-num counter" data-target="104">0</div><div class="stat-label">Matches</div></div></div>
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200"><div class="glass tilt"><div class="stat-num counter" data-target="3">0</div><div class="stat-label">Host Nations</div></div></div>
+      <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300"><div class="glass tilt"><div class="stat-num counter" data-target="1">0</div><div class="stat-label">Champion</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REGISTRATION -->
+<section class="section" id="register">
+  <div class="container">
+    <div class="reg-card" data-aos="zoom-in">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <p class="section-kicker">Join the Contest</p>
+      <h2 class="section-title">Registration</h2>
+      <div class="reg-fee pop">15 SR</div>
+      <p style="letter-spacing:3px;color:var(--muted);font-family:'Montserrat'">ENTRY FEE</p>
+      <div class="my-4">
+        <h6 class="text-gold" style="letter-spacing:3px;font-family:'Montserrat'">ELIGIBILITY</h6>
+        <div class="mt-2">
+          <span class="chip"><i class="fa-solid fa-user-tie me-2"></i>ICAD Employees</span>
+          <span class="chip"><i class="fa-solid fa-user-tie me-2"></i>MBL Employees</span>
+          <span class="chip"><i class="fa-solid fa-users me-2"></i>Ex Employees</span>
+        </div>
+      </div>
+      <a href="https://strawpoll.com/jVyG2aRKzZ7" target="_blank" rel="noopener" class="btn btn-fifa shine mt-3" onclick="fireConfetti()">
+        <i class="fa-solid fa-pen-to-square me-2"></i>Register Now
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- RULES -->
+<section class="section" id="rules">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Contest Rules</p>
+      <h2 class="section-title">ഫിഫാ വേൾഡ്‌ കപ്പ് മെഗാ പ്രവചന മത്സരം 2026</h2>
+      <p class="section-sub">നിബന്ധനകൾ / മത്സരിക്കേണ്ട രീതി</p>
+    </div>
+    <div class="accordion" id="rulesAcc" data-aos="fade-up">
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#r1">1. ഗ്രൂപ്പ് അംഗത്വം</button></h2><div id="r1" class="accordion-collapse collapse show" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">മത്സരത്തിൽ പങ്കെടുക്കുന്ന വ്യക്തി Prediction Group-ൽ അംഗമായിരിക്കണം.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#r2">2. എൻട്രി ഫീ</button></h2><div id="r2" class="accordion-collapse collapse" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">പങ്കെടുക്കുന്നതിന് 15 SR എൻട്രി ഫീ ഉണ്ടായിരിക്കുന്നതാണ്.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#r3">3. യോഗ്യത</button></h2><div id="r3" class="accordion-collapse collapse" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">ICAD &amp; MBL ഗ്രൂപ്പിലെ എല്ലാ കമ്പനി എംപ്ലോയീസിനും EX-എംപ്ലോയീസിനും പങ്കെടുക്കാം.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#r4">4. നിയമാവലികൾ</button></h2><div id="r4" class="accordion-collapse collapse" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">നിയമാവലികൾ കൃത്യമായി പാലിക്കണം. ടൂർണമെൻറ് അവസാനം വരെ എല്ലാ പ്രവചനങ്ങളും നൽകണം.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#r5">5. പ്രവചനങ്ങൾ</button></h2><div id="r5" class="accordion-collapse collapse" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">ഓരോ അംഗത്തിനും ഒരു പ്രവചനം മാത്രം. ഒന്നിലധികം എൻട്രികൾ അസാധുവാക്കും.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#r6">6. സമർപ്പണ രീതി</button></h2><div id="r6" class="accordion-collapse collapse" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">ചോദ്യങ്ങൾ ഗ്രൂപ്പിൽ നൽകുന്ന ലിങ്ക് വഴി സമർപ്പിക്കണം. മത്സരത്തിന് 2 മണിക്കൂർ മുമ്പ് പ്രവചനം സമർപ്പിക്കണം.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#r7">7. പോയിന്റ് സിസ്റ്റം</button></h2><div id="r7" class="accordion-collapse collapse" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">3 പോയിന്റ് ചോദ്യങ്ങളും 5 പോയിന്റ് ബോണസ് ചോദ്യങ്ങളും ഉണ്ടായിരിക്കും. മത്സരദിന പ്രവചനങ്ങളും ബോണസ് ചോദ്യങ്ങളും ഉണ്ടാകും.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#r8">8. പോയിന്റ് പട്ടിക</button></h2><div id="r8" class="accordion-collapse collapse" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">വ്യത്യസ്ത പ്രവചന ചോദ്യങ്ങൾ ടൂർണമെൻറ് മുഴുവൻ ഉണ്ടായിരിക്കും. ഓരോ മത്സരദിനത്തിനും ശേഷം പോയിന്റ് പട്ടിക പ്രസിദ്ധീകരിക്കും.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#r9">9. സമ്മാനങ്ങൾ</button></h2><div id="r9" class="accordion-collapse collapse" data-bs-parent="#rulesAcc"><div class="accordion-body malayalam">കൂടുതൽ പോയിന്റ് നേടുന്നവർക്ക് ആകർഷക സമ്മാനങ്ങൾ ലഭിക്കും.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="section" id="news">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">What's New</p>
+      <h2 class="section-title">FIFA World Cup 2026 Updates</h2>
+      <p class="section-sub">The biggest tournament in football history — bigger, bolder and more exciting than ever.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up"><div class="news-card p-4 h-100 tilt"><div class="icon mb-3"><i class="fa-solid fa-users"></i></div><span class="pill">Teams</span><h5>48 Teams</h5><p style="color:var(--muted)">Expanded from 32 to 48 teams for the first time in history.</p></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="news-card p-4 h-100 tilt"><div class="icon mb-3"><i class="fa-solid fa-futbol"></i></div><span class="pill">Matches</span><h5>104 Matches</h5><p style="color:var(--muted)">Tournament increased from 64 matches to 104 matches.</p></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200"><div class="news-card p-4 h-100 tilt"><div class="icon mb-3"><i class="fa-solid fa-flag"></i></div><span class="pill">Hosts</span><h5>Three Host Nations</h5><p style="color:var(--muted)">USA, Canada and Mexico jointly host the tournament.</p></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up"><div class="news-card p-4 h-100 tilt"><div class="icon mb-3"><i class="fa-solid fa-layer-group"></i></div><span class="pill">Format</span><h5>New Group Structure</h5><p style="color:var(--muted)">12 groups of 4 teams each in the group stage.</p></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="news-card p-4 h-100 tilt"><div class="icon mb-3"><i class="fa-solid fa-trophy"></i></div><span class="pill">Knockout</span><h5>Bigger Knockout Stage</h5><p style="color:var(--muted)">Round of 32 added before Round of 16.</p></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200"><div class="news-card p-4 h-100 tilt"><div class="icon mb-3"><i class="fa-solid fa-globe"></i></div><span class="pill">Reach</span><h5>Global Audience</h5><p style="color:var(--muted)">Expected to reach over 5 billion viewers worldwide.</p></div></div>
+    </div>
+
+    <h4 class="mt-5 mb-3 text-gold" data-aos="fade-up"><i class="fa-solid fa-newspaper me-2"></i>Latest FIFA News</h4>
+    <div class="news-slider" data-aos="fade-up">
+      <div class="news-card p-3"><span class="pill">Update</span><h6>Match schedule released</h6><p style="color:var(--muted);font-size:.9rem">Full fixture list announced for all 104 matches.</p></div>
+      <div class="news-card p-3"><span class="pill">Stadiums</span><h6>16 host cities confirmed</h6><p style="color:var(--muted);font-size:.9rem">From Toronto to Mexico City — meet the host cities.</p></div>
+      <div class="news-card p-3"><span class="pill">Tickets</span><h6>Ticket sales begin soon</h6><p style="color:var(--muted);font-size:.9rem">Phase 1 of FIFA ticket sales opens with priority access.</p></div>
+      <div class="news-card p-3"><span class="pill">Mascot</span><h6>Official mascot revealed</h6><p style="color:var(--muted);font-size:.9rem">Meet the three new mascots representing the host nations.</p></div>
+      <div class="news-card p-3"><span class="pill">Ball</span><h6>Match ball launch</h6><p style="color:var(--muted);font-size:.9rem">Adidas reveals the official FIFA 2026 match ball design.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ANNOUNCEMENTS -->
+<section class="section" id="announcements">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Admin Updates</p>
+      <h2 class="section-title">Announcements</h2>
+      <p class="section-sub">Important notices, schedule changes and prize announcements from the contest committee.</p>
+    </div>
+    <div class="row justify-content-center"><div class="col-lg-9" id="annList" data-aos="fade-up"></div></div>
+  </div>
+</section>
+
+<!-- LEADERBOARD -->
+<section class="section" id="leaderboard">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Top Predictors</p>
+      <h2 class="section-title">Live Leaderboard</h2>
+      <p class="section-sub">Top 10 standings — updated after every match day.</p>
+    </div>
+    <div class="glass" data-aos="fade-up" style="overflow-x:auto">
+      <table class="lb-table">
+        <thead><tr><th>Rank</th><th>Name</th><th class="text-end">Points</th></tr></thead>
+        <tbody id="lbBody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- WINNERS -->
+<section class="section" id="winners">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Hall of Fame</p>
+      <h2 class="section-title">Previous Winners</h2>
+      <p class="section-sub">Celebrating the legends of past prediction contests.</p>
+    </div>
+    <div class="row g-4" id="winnersGrid"></div>
+  </div>
+</section>
+
+<!-- PRIZES -->
+<section class="section" id="prizes">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Rewards</p>
+      <h2 class="section-title">Prize Pool</h2>
+      <p class="section-sub">Exciting cash prizes and bonus rewards await the top predictors.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in"><div class="prize-card gold tilt"><div class="medal">🥇</div><h4>Champion</h4><p style="color:var(--muted)">Cash Prize + Trophy</p></div></div>
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100"><div class="prize-card silver tilt"><div class="medal">🥈</div><h4>Runner Up</h4><p style="color:var(--muted)">Cash Prize</p></div></div>
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200"><div class="prize-card bronze tilt"><div class="medal">🥉</div><h4>Third Place</h4><p style="color:var(--muted)">Cash Prize</p></div></div>
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300"><div class="prize-card tilt"><div class="medal">🎁</div><h4>Bonus Winners</h4><p style="color:var(--muted)">Special Surprise Gifts</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Need Help?</p>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+    </div>
+    <div class="accordion" id="faqAcc" data-aos="fade-up">
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#f1">Who can participate?</button></h2><div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc"><div class="accordion-body">All ICAD &amp; MBL employees and ex-employees are eligible to participate.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f2">What is the entry fee?</button></h2><div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">The entry fee is 15 Saudi Riyals per participant.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f3">How are points calculated?</button></h2><div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">3 points for regular prediction questions and 5 points for bonus questions.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f4">Can I submit multiple predictions?</button></h2><div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">No. Only one prediction per member is allowed. Multiple entries will be disqualified.</div></div></div>
+      <div class="accordion-item"><h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#f5">When is the leaderboard updated?</button></h2><div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAcc"><div class="accordion-body">The leaderboard is updated and published after every match day.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container text-center">
+    <div data-aos="fade-up">
+      <p class="section-kicker">Get In Touch</p>
+      <h2 class="section-title">ICAD FIFA 2026 Prediction Committee</h2>
+      <p class="section-sub">Reach out to us for any queries about the contest.</p>
+    </div>
+    <div class="row justify-content-center g-4 mt-3" data-aos="fade-up">
+      <div class="col-6 col-md-3"><a href="#" class="contact-icon"><i class="fa-brands fa-whatsapp"></i></a><p class="mt-3" style="letter-spacing:1px;font-family:'Montserrat'">Suhail<br><small style="color:var(--muted)">+966 572885958</small></p></div>
+     <div class="col-6 col-md-3"><a href="#" class="contact-icon"><i class="fa-brands fa-whatsapp"></i></a><p class="mt-3" style="letter-spacing:1px;font-family:'Montserrat'">Amith<br><small style="color:var(--muted)">+91 8086767687</small></p></div>
+     <div class="col-6 col-md-3"><a href="#" class="contact-icon"><i class="fa-brands fa-whatsapp"></i></a><p class="mt-3" style="letter-spacing:1px;font-family:'Montserrat'">Jinto<br><small style="color:var(--muted)">+966 549102894</small></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FIFA 2026 GROUPS ========== -->
+<section class="section" id="groups">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Tournament Draw</p>
+      <h2 class="section-title">FIFA World Cup 2026 Groups</h2>
+      <p class="section-sub">48 teams · 12 groups · USA · Canada · Mexico</p>
+    </div>
+    <div class="row g-4" id="groupsGrid" data-aos="fade-up"></div>
+  </div>
+</section>
+
+<!-- ========== MATCH SCHEDULE ========== -->
+<section class="section" id="schedule">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Fixtures</p>
+      <h2 class="section-title">Match Schedule</h2>
+      <p class="section-sub">Select a date to view that day's matches.</p>
+    </div>
+
+    <div class="date-bar d-flex flex-wrap justify-content-center gap-2 my-4" id="dateBar" data-aos="fade-up"></div>
+
+    <div class="glass p-3" data-aos="fade-up">
+      <div id="matchList" class="match-list"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== POLL ========== -->
+<section class="section" id="poll">
+  <div class="container">
+    <div class="text-center" data-aos="fade-up">
+      <p class="section-kicker">Fans Vote</p>
+      <h2 class="section-title">Your Favourite Team?</h2>
+      <p class="section-sub">Cast your vote and see live results.</p>
+    </div>
+
+    <div class="row justify-content-center" data-aos="fade-up">
+      <div class="col-lg-7">
+        <div class="glass p-4 poll-card">
+          <form id="pollForm" class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label text-gold" style="letter-spacing:2px;font-family:'Montserrat'">YOUR NAME</label>
+              <input type="text" class="form-control poll-input" id="pollName" placeholder="Enter your name" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label text-gold" style="letter-spacing:2px;font-family:'Montserrat'">SELECT TEAM</label>
+              <select class="form-select poll-input" id="pollTeam" required>
+                <option value="">-- Choose Team --</option>
+              </select>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-fifa shine mt-2">
+                <i class="fa-solid fa-check-to-slot me-2"></i>Vote
+              </button>
+            </div>
+          </form>
+
+          <hr class="my-4" style="border-color:rgba(255,255,255,.1)">
+
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="m-0 text-gold" style="letter-spacing:2px;font-family:'Montserrat'">LIVE RESULTS</h5>
+            <span class="pill" id="totalVotes">0 Total Votes</span>
+          </div>
+          <div id="pollResults" class="poll-results"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <a class="navbar-brand text-light fs-4" href="#home">ICAD <span class="text-gold">FIFA</span> 2026</a>
+    <p class="mt-2" style="color:var(--muted)">Designed By Shahul for ICAD &amp; MBL Community</p>
+    <div class="mb-3">
+      <a class="social-ic" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a class="social-ic" href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a class="social-ic" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      <a class="social-ic" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a class="social-ic" href="#"><i class="fa-brands fa-telegram"></i></a>
+    </div>
+    <small style="color:var(--muted)">© 2026 ICAD FIFA Prediction Contest. All Rights Reserved.</small>
+  </div>
+</footer>
+
+<div class="visitor"><i class="fa-solid fa-eye"></i><span id="visitorCount">0</span> Visitors</div>
+<button class="theme-toggle" id="themeToggle" title="Toggle Theme"><i class="fa-solid fa-moon" id="themeIcon"></i></button>
+<canvas id="confetti-canvas"></canvas>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/app.js"></script>
+<script src="js/extras.js"></script>
+</body>
+</html>
