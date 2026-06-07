@@ -17,9 +17,9 @@ const wg = document.getElementById('winnersGrid');
 const lbBody = document.getElementById('lbBody');
 
 const LEADERBOARD = [
-  { rank: 1, name: "Shahul", points: 95 },
-  { rank: 2, name: "Suhail", points: 90 },
-  { rank: 3, name: "Amith", points: 88 }
+  { rank: 1, name: "Coming Soon", points: 00 },
+  { rank: 2, name: "Coming Soon", points: 00 },
+  { rank: 3, name: "Coming Soon", points: 00 }
 ];
 
 lbBody.innerHTML = LEADERBOARD.map((p,i)=>{
