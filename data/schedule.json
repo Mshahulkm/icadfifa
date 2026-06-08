@@ -1,10 +1,10 @@
 {
-  "_source": "FIFA Official \u2013 fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
-  "_note": "All kick-off times are local to the venue.",
+  "_source": "FIFA Official – fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026",
+  "_note": "All match dates and kick-off times have been converted to Riyadh Time (AST, UTC+3).",
   "matches": [
     {
-      "date": "2026-06-11",
-      "time": "09:00 PM",
+      "date": "2026-06-12",
+      "time": "06:00 AM",
       "venue": "Estadio Azteca, Mexico City",
       "home": "Mexico",
       "homeCode": "mx",
@@ -14,7 +14,7 @@
     },
     {
       "date": "2026-06-12",
-      "time": "05:00 AM",
+      "time": "03:00 PM",
       "venue": "Estadio Akron, Guadalajara",
       "home": "Korea Republic",
       "homeCode": "kr",
@@ -23,8 +23,8 @@
       "stage": "Group A"
     },
     {
-      "date": "2026-06-12",
-      "time": "10:00 PM",
+      "date": "2026-06-13",
+      "time": "05:00 AM",
       "venue": "BMO Field, Toronto",
       "home": "Canada",
       "homeCode": "ca",
@@ -34,7 +34,7 @@
     },
     {
       "date": "2026-06-13",
-      "time": "04:00 AM",
+      "time": "10:00 AM",
       "venue": "SoFi Stadium, Los Angeles",
       "home": "USA",
       "homeCode": "us",
@@ -44,7 +44,7 @@
     },
     {
       "date": "2026-06-13",
-      "time": "12:00",
+      "time": "10:00 PM",
       "venue": "Levi's Stadium, Bay Area",
       "home": "Qatar",
       "homeCode": "qa",
@@ -53,8 +53,8 @@
       "stage": "Group B"
     },
     {
-      "date": "2026-06-13",
-      "time": "18:00",
+      "date": "2026-06-14",
+      "time": "01:00 AM",
       "venue": "MetLife Stadium, New Jersey",
       "home": "Brazil",
       "homeCode": "br",
@@ -64,7 +64,7 @@
     },
     {
       "date": "2026-06-14",
-      "time": "04:00 AM",
+      "time": "11:00 AM",
       "venue": "Gillette Stadium, Boston",
       "home": "Haiti",
       "homeCode": "ht",
@@ -74,27 +74,27 @@
     },
     {
       "date": "2026-06-15",
-      "time": "02:00 AM",
+      "time": "12:00 PM",
       "venue": "BC Place, Vancouver",
       "home": "Australia",
       "homeCode": "au",
-      "away": "T\u00fcrkiye",
+      "away": "Türkiye",
       "awayCode": "tr",
       "stage": "Group D"
     },
     {
       "date": "2026-06-14",
-      "time": "09:00 PM",
+      "time": "05:00 PM",
       "venue": "NRG Stadium, Houston",
       "home": "Germany",
       "homeCode": "de",
-      "away": "Cura\u00e7ao",
+      "away": "Curaçao",
       "awayCode": "cw",
       "stage": "Group E"
     },
     {
       "date": "2026-06-15",
-      "time": "12:00 AM",
+      "time": "08:00 AM",
       "venue": "AT&T Stadium, Dallas",
       "home": "Netherlands",
       "homeCode": "nl",
@@ -104,9 +104,9 @@
     },
     {
       "date": "2026-06-15",
-      "time": "02:00 AM",
+      "time": "09:00 AM",
       "venue": "Lincoln Financial Field, Philadelphia",
-      "home": "C\u00f4te d'Ivoire",
+      "home": "Côte d'Ivoire",
       "homeCode": "ci",
       "away": "Ecuador",
       "awayCode": "ec",
@@ -114,7 +114,7 @@
     },
     {
       "date": "2026-06-15",
-      "time": "06:00 AM",
+      "time": "03:00 PM",
       "venue": "Estadio BBVA, Monterrey",
       "home": "Sweden",
       "homeCode": "se",
@@ -123,8 +123,8 @@
       "stage": "Group F"
     },
     {
-      "date": "2026-06-15",
-      "time": "07:00 PM",
+      "date": "2026-06-16",
+      "time": "02:00 AM",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "home": "Spain",
       "homeCode": "es",
@@ -134,7 +134,7 @@
     },
     {
       "date": "2026-06-16",
-      "time": "01:00 AM",
+      "time": "08:00 AM",
       "venue": "Lumen Field, Seattle",
       "home": "Belgium",
       "homeCode": "be",
@@ -144,7 +144,7 @@
     },
     {
       "date": "2026-06-16",
-      "time": "01:00 AM",
+      "time": "08:00 AM",
       "venue": "Hard Rock Stadium, Miami",
       "home": "Saudi Arabia",
       "homeCode": "sa",
@@ -154,7 +154,7 @@
     },
     {
       "date": "2026-06-16",
-      "time": "07:00 AM",
+      "time": "05:00 PM",
       "venue": "SoFi Stadium, Los Angeles",
       "home": "IR Iran",
       "homeCode": "ir",
@@ -164,7 +164,7 @@
     },
     {
       "date": "2026-06-16",
-      "time": "15:00",
+      "time": "10:00 PM",
       "venue": "MetLife Stadium, New Jersey",
       "home": "France",
       "homeCode": "fr",
@@ -174,7 +174,7 @@
     },
     {
       "date": "2026-06-17",
-      "time": "01:00 AM",
+      "time": "08:00 AM",
       "venue": "Gillette Stadium, Boston",
       "home": "Iraq",
       "homeCode": "iq",
@@ -184,7 +184,7 @@
     },
     {
       "date": "2026-06-17",
-      "time": "05:00 AM",
+      "time": "01:00 PM",
       "venue": "Arrowhead Stadium, Kansas City",
       "home": "Argentina",
       "homeCode": "ar",
@@ -193,8 +193,8 @@
       "stage": "Group J"
     },
     {
-      "date": "2026-06-17",
-      "time": "17:00",
+      "date": "2026-06-18",
+      "time": "03:00 AM",
       "venue": "Levi's Stadium, Bay Area",
       "home": "Austria",
       "homeCode": "at",
@@ -203,8 +203,8 @@
       "stage": "Group J"
     },
     {
-      "date": "2026-06-17",
-      "time": "09:00 PM",
+      "date": "2026-06-18",
+      "time": "05:00 AM",
       "venue": "NRG Stadium, Houston",
       "home": "Portugal",
       "homeCode": "pt",
@@ -214,7 +214,7 @@
     },
     {
       "date": "2026-06-18",
-      "time": "12:00 AM",
+      "time": "08:00 AM",
       "venue": "AT&T Stadium, Dallas",
       "home": "England",
       "homeCode": "gb-eng",
@@ -224,7 +224,7 @@
     },
     {
       "date": "2026-06-18",
-      "time": "02:00 AM",
+      "time": "09:00 AM",
       "venue": "BMO Field, Toronto",
       "home": "Ghana",
       "homeCode": "gh",
@@ -234,7 +234,7 @@
     },
     {
       "date": "2026-06-18",
-      "time": "05:00 AM",
+      "time": "02:00 PM",
       "venue": "Estadio Azteca, Mexico City",
       "home": "Uzbekistan",
       "homeCode": "uz",
@@ -243,8 +243,8 @@
       "stage": "Group K"
     },
     {
-      "date": "2026-06-18",
-      "time": "07:00 PM",
+      "date": "2026-06-19",
+      "time": "02:00 AM",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "home": "Czechia",
       "homeCode": "cz",
@@ -254,7 +254,7 @@
     },
     {
       "date": "2026-06-19",
-      "time": "01:00 AM",
+      "time": "11:00 AM",
       "venue": "SoFi Stadium, Los Angeles",
       "home": "Switzerland",
       "homeCode": "ch",
@@ -264,7 +264,7 @@
     },
     {
       "date": "2026-06-19",
-      "time": "01:00 AM",
+      "time": "11:00 AM",
       "venue": "BC Place, Vancouver",
       "home": "Canada",
       "homeCode": "ca",
@@ -274,7 +274,7 @@
     },
     {
       "date": "2026-06-19",
-      "time": "04:00 AM",
+      "time": "02:00 PM",
       "venue": "Estadio Akron, Guadalajara",
       "home": "Mexico",
       "homeCode": "mx",
@@ -284,7 +284,7 @@
     },
     {
       "date": "2026-06-20",
-      "time": "01:00 AM",
+      "time": "11:00 AM",
       "venue": "Lumen Field, Seattle",
       "home": "USA",
       "homeCode": "us",
@@ -294,7 +294,7 @@
     },
     {
       "date": "2026-06-20",
-      "time": "01:00 AM",
+      "time": "11:00 AM",
       "venue": "Gillette Stadium, Boston",
       "home": "Scotland",
       "homeCode": "gb-sct",
@@ -304,7 +304,7 @@
     },
     {
       "date": "2026-06-20",
-      "time": "03:30 AM",
+      "time": "10:30 AM",
       "venue": "Lincoln Financial Field, Philadelphia",
       "home": "Brazil",
       "homeCode": "br",
@@ -313,18 +313,18 @@
       "stage": "Group C"
     },
     {
-      "date": "2026-06-19",
-      "time": "20:00",
+      "date": "2026-06-20",
+      "time": "06:00 AM",
       "venue": "Levi's Stadium, Bay Area",
-      "home": "T\u00fcrkiye",
+      "home": "Türkiye",
       "homeCode": "tr",
       "away": "Paraguay",
       "awayCode": "py",
       "stage": "Group D"
     },
     {
-      "date": "2026-06-20",
-      "time": "09:00 PM",
+      "date": "2026-06-21",
+      "time": "05:00 AM",
       "venue": "NRG Stadium, Houston",
       "home": "Netherlands",
       "homeCode": "nl",
@@ -333,28 +333,28 @@
       "stage": "Group F"
     },
     {
-      "date": "2026-06-20",
-      "time": "11:00 PM",
+      "date": "2026-06-21",
+      "time": "06:00 AM",
       "venue": "BMO Field, Toronto",
       "home": "Germany",
       "homeCode": "de",
-      "away": "C\u00f4te d'Ivoire",
+      "away": "Côte d'Ivoire",
       "awayCode": "ci",
       "stage": "Group E"
     },
     {
       "date": "2026-06-21",
-      "time": "04:00 AM",
+      "time": "12:00 PM",
       "venue": "Arrowhead Stadium, Kansas City",
       "home": "Ecuador",
       "homeCode": "ec",
-      "away": "Cura\u00e7ao",
+      "away": "Curaçao",
       "awayCode": "cw",
       "stage": "Group E"
     },
     {
       "date": "2026-06-22",
-      "time": "03:00 AM",
+      "time": "12:00 PM",
       "venue": "Estadio BBVA, Monterrey",
       "home": "Tunisia",
       "homeCode": "tn",
@@ -363,8 +363,8 @@
       "stage": "Group F"
     },
     {
-      "date": "2026-06-21",
-      "time": "07:00 PM",
+      "date": "2026-06-22",
+      "time": "02:00 AM",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "home": "Spain",
       "homeCode": "es",
@@ -374,7 +374,7 @@
     },
     {
       "date": "2026-06-22",
-      "time": "01:00 AM",
+      "time": "08:00 AM",
       "venue": "SoFi Stadium, Los Angeles",
       "home": "Belgium",
       "homeCode": "be",
@@ -384,7 +384,7 @@
     },
     {
       "date": "2026-06-22",
-      "time": "01:00 AM",
+      "time": "08:00 AM",
       "venue": "Hard Rock Stadium, Miami",
       "home": "Uruguay",
       "homeCode": "uy",
@@ -394,7 +394,7 @@
     },
     {
       "date": "2026-06-22",
-      "time": "04:00 AM",
+      "time": "11:00 AM",
       "venue": "BC Place, Vancouver",
       "home": "New Zealand",
       "homeCode": "nz",
@@ -403,8 +403,8 @@
       "stage": "Group G"
     },
     {
-      "date": "2026-06-22",
-      "time": "09:00 PM",
+      "date": "2026-06-23",
+      "time": "05:00 AM",
       "venue": "AT&T Stadium, Dallas",
       "home": "Argentina",
       "homeCode": "ar",
@@ -414,7 +414,7 @@
     },
     {
       "date": "2026-06-23",
-      "time": "12:00 AM",
+      "time": "07:00 AM",
       "venue": "Lincoln Financial Field, Philadelphia",
       "home": "France",
       "homeCode": "fr",
@@ -423,8 +423,8 @@
       "stage": "Group I"
     },
     {
-      "date": "2026-06-22",
-      "time": "20:00",
+      "date": "2026-06-23",
+      "time": "03:00 AM",
       "venue": "MetLife Stadium, New Jersey",
       "home": "Norway",
       "homeCode": "no",
@@ -433,8 +433,8 @@
       "stage": "Group I"
     },
     {
-      "date": "2026-06-22",
-      "time": "20:00",
+      "date": "2026-06-23",
+      "time": "06:00 AM",
       "venue": "Levi's Stadium, Bay Area",
       "home": "Jordan",
       "homeCode": "jo",
@@ -443,8 +443,8 @@
       "stage": "Group J"
     },
     {
-      "date": "2026-06-23",
-      "time": "09:00 PM",
+      "date": "2026-06-24",
+      "time": "05:00 AM",
       "venue": "NRG Stadium, Houston",
       "home": "Portugal",
       "homeCode": "pt",
@@ -453,8 +453,8 @@
       "stage": "Group K"
     },
     {
-      "date": "2026-06-23",
-      "time": "11:00 PM",
+      "date": "2026-06-24",
+      "time": "06:00 AM",
       "venue": "Gillette Stadium, Boston",
       "home": "England",
       "homeCode": "gb-eng",
@@ -464,7 +464,7 @@
     },
     {
       "date": "2026-06-24",
-      "time": "02:00 AM",
+      "time": "09:00 AM",
       "venue": "BMO Field, Toronto",
       "home": "Panama",
       "homeCode": "pa",
@@ -474,7 +474,7 @@
     },
     {
       "date": "2026-06-24",
-      "time": "05:00 AM",
+      "time": "02:00 PM",
       "venue": "Estadio Akron, Guadalajara",
       "home": "Colombia",
       "homeCode": "co",
@@ -484,7 +484,7 @@
     },
     {
       "date": "2026-06-25",
-      "time": "01:00 AM",
+      "time": "11:00 AM",
       "venue": "Lumen Field, Seattle",
       "home": "Bosnia and Herzegovina",
       "homeCode": "ba",
@@ -494,7 +494,7 @@
     },
     {
       "date": "2026-06-25",
-      "time": "01:00 AM",
+      "time": "11:00 AM",
       "venue": "BC Place, Vancouver",
       "home": "Switzerland",
       "homeCode": "ch",
@@ -504,7 +504,7 @@
     },
     {
       "date": "2026-06-25",
-      "time": "01:00 AM",
+      "time": "11:00 AM",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "home": "Morocco",
       "homeCode": "ma",
@@ -514,7 +514,7 @@
     },
     {
       "date": "2026-06-25",
-      "time": "01:00 AM",
+      "time": "11:00 AM",
       "venue": "Hard Rock Stadium, Miami",
       "home": "Scotland",
       "homeCode": "gb-sct",
@@ -524,7 +524,7 @@
     },
     {
       "date": "2026-06-25",
-      "time": "06:00 AM",
+      "time": "03:00 PM",
       "venue": "Estadio BBVA, Monterrey",
       "home": "South Africa",
       "homeCode": "za",
@@ -534,7 +534,7 @@
     },
     {
       "date": "2026-06-25",
-      "time": "06:00 AM",
+      "time": "03:00 PM",
       "venue": "Estadio Azteca, Mexico City",
       "home": "Czechia",
       "homeCode": "cz",
@@ -543,18 +543,18 @@
       "stage": "Group A"
     },
     {
-      "date": "2026-06-25",
-      "time": "11:00 PM",
+      "date": "2026-06-26",
+      "time": "06:00 AM",
       "venue": "Lincoln Financial Field, Philadelphia",
-      "home": "Cura\u00e7ao",
+      "home": "Curaçao",
       "homeCode": "cw",
-      "away": "C\u00f4te d'Ivoire",
+      "away": "Côte d'Ivoire",
       "awayCode": "ci",
       "stage": "Group E"
     },
     {
       "date": "2026-06-25",
-      "time": "16:00",
+      "time": "11:00 PM",
       "venue": "MetLife Stadium, New Jersey",
       "home": "Ecuador",
       "homeCode": "ec",
@@ -564,7 +564,7 @@
     },
     {
       "date": "2026-06-26",
-      "time": "03:00 AM",
+      "time": "04:00 AM",
       "venue": "Arrowhead Stadium, Kansas City",
       "home": "Tunisia",
       "homeCode": "tn",
@@ -574,7 +574,7 @@
     },
     {
       "date": "2026-06-26",
-      "time": "03:00 AM",
+      "time": "04:00 AM",
       "venue": "AT&T Stadium, Dallas",
       "home": "Japan",
       "homeCode": "jp",
@@ -583,8 +583,8 @@
       "stage": "Group F"
     },
     {
-      "date": "2026-06-25",
-      "time": "22:00",
+      "date": "2026-06-26",
+      "time": "08:00 AM",
       "venue": "Levi's Stadium, Bay Area",
       "home": "Paraguay",
       "homeCode": "py",
@@ -594,17 +594,17 @@
     },
     {
       "date": "2026-06-26",
-      "time": "08:00 AM",
+      "time": "06:00 AM",
       "venue": "SoFi Stadium, Los Angeles",
-      "home": "T\u00fcrkiye",
+      "home": "Türkiye",
       "homeCode": "tr",
       "away": "USA",
       "awayCode": "us",
       "stage": "Group D"
     },
     {
-      "date": "2026-06-26",
-      "time": "10:00 PM",
+      "date": "2026-06-27",
+      "time": "05:00 AM",
       "venue": "BMO Field, Toronto",
       "home": "Senegal",
       "homeCode": "sn",
@@ -613,8 +613,8 @@
       "stage": "Group I"
     },
     {
-      "date": "2026-06-26",
-      "time": "10:00 PM",
+      "date": "2026-06-27",
+      "time": "05:00 AM",
       "venue": "Gillette Stadium, Boston",
       "home": "Norway",
       "homeCode": "no",
@@ -624,7 +624,7 @@
     },
     {
       "date": "2026-06-27",
-      "time": "05:00 AM",
+      "time": "02:00 PM",
       "venue": "Estadio Akron, Guadalajara",
       "home": "Uruguay",
       "homeCode": "uy",
@@ -634,7 +634,7 @@
     },
     {
       "date": "2026-06-27",
-      "time": "04:00 AM",
+      "time": "05:00 PM",
       "venue": "NRG Stadium, Houston",
       "home": "Cabo Verde",
       "homeCode": "cv",
@@ -644,7 +644,7 @@
     },
     {
       "date": "2026-06-27",
-      "time": "06:00 AM",
+      "time": "07:00 PM",
       "venue": "BC Place, Vancouver",
       "home": "New Zealand",
       "homeCode": "nz",
@@ -654,7 +654,7 @@
     },
     {
       "date": "2026-06-27",
-      "time": "06:00 AM",
+      "time": "07:00 PM",
       "venue": "Lumen Field, Seattle",
       "home": "Egypt",
       "homeCode": "eg",
@@ -663,8 +663,8 @@
       "stage": "Group G"
     },
     {
-      "date": "2026-06-27",
-      "time": "17:00",
+      "date": "2026-06-28",
+      "time": "12:00 AM",
       "venue": "MetLife Stadium, New Jersey",
       "home": "Panama",
       "homeCode": "pa",
@@ -674,7 +674,7 @@
     },
     {
       "date": "2026-06-28",
-      "time": "12:00 AM",
+      "time": "07:00 AM",
       "venue": "Lincoln Financial Field, Philadelphia",
       "home": "Croatia",
       "homeCode": "hr",
@@ -684,7 +684,7 @@
     },
     {
       "date": "2026-06-28",
-      "time": "02:30 AM",
+      "time": "09:30 AM",
       "venue": "Mercedes-Benz Stadium, Atlanta",
       "home": "Congo DR",
       "homeCode": "cd",
@@ -694,7 +694,7 @@
     },
     {
       "date": "2026-06-28",
-      "time": "02:30 AM",
+      "time": "09:30 AM",
       "venue": "Hard Rock Stadium, Miami",
       "home": "Colombia",
       "homeCode": "co",
@@ -704,7 +704,7 @@
     },
     {
       "date": "2026-06-28",
-      "time": "06:00 AM",
+      "time": "01:00 PM",
       "venue": "Arrowhead Stadium, Kansas City",
       "home": "Algeria",
       "homeCode": "dz",
@@ -714,7 +714,7 @@
     },
     {
       "date": "2026-06-28",
-      "time": "06:00 AM",
+      "time": "02:00 PM",
       "venue": "AT&T Stadium, Dallas",
       "home": "Jordan",
       "homeCode": "jo",
