@@ -1,0 +1,155 @@
+/* ===========================================================
+   FIFA 2026 Extras Styles – Groups · Schedule · Poll
+   Reuses tokens (--gold, --muted, etc.) from style.css
+   =========================================================== */
+
+/* ---------- GROUPS ---------- */
+.group-card{
+  background:linear-gradient(160deg,rgba(255,255,255,.04),rgba(255,255,255,.015));
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:18px;
+  padding:1.25rem 1.25rem 1rem;
+  height:100%;
+  position:relative;
+  overflow:hidden;
+  transition:transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+.group-card:hover{
+  transform:translateY(-4px);
+  border-color:rgba(255,196,0,.45);
+  box-shadow:0 18px 40px -20px rgba(255,196,0,.35);
+}
+.group-card::before{
+  content:"";position:absolute;inset:-1px;border-radius:18px;
+  background:linear-gradient(135deg,rgba(255,196,0,.25),transparent 60%);
+  opacity:0;transition:opacity .35s ease;pointer-events:none;
+}
+.group-card:hover::before{opacity:1}
+.group-head{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:.85rem;padding-bottom:.6rem;
+  border-bottom:1px dashed rgba(255,255,255,.08);
+}
+.group-badge{
+  font-family:'Montserrat',sans-serif;
+  letter-spacing:3px;font-size:.7rem;color:var(--muted,#a9b0c0);
+}
+.group-letter{
+  font-family:'Anton','Oswald',sans-serif;
+  font-size:1.9rem;color:var(--gold,#ffc400);line-height:1;
+}
+.team-list{list-style:none;padding:0;margin:0}
+.team-list li{
+  display:flex;align-items:center;gap:.75rem;
+  padding:.55rem .25rem;
+  border-bottom:1px solid rgba(255,255,255,.04);
+  font-family:'Montserrat',sans-serif;font-size:.95rem;
+}
+.team-list li:last-child{border-bottom:0}
+.team-list img{
+  width:32px;height:22px;object-fit:cover;border-radius:3px;
+  box-shadow:0 1px 4px rgba(0,0,0,.4);
+}
+
+/* ---------- SCHEDULE ---------- */
+.date-bar{margin-top:1rem}
+.date-btn{
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.1);
+  color:#fff;
+  padding:.55rem 1rem;
+  border-radius:999px;
+  font-family:'Montserrat',sans-serif;
+  font-size:.85rem;letter-spacing:1px;
+  cursor:pointer;
+  transition:all .25s ease;
+}
+.date-btn:hover{border-color:var(--gold,#ffc400);color:var(--gold,#ffc400)}
+.date-btn.active{
+  background:linear-gradient(135deg,var(--gold,#ffc400),#ffae00);
+  color:#111;border-color:transparent;
+  box-shadow:0 8px 22px -10px rgba(255,196,0,.7);
+}
+
+.match-list{display:flex;flex-direction:column;gap:.85rem}
+.match-date-head{
+  text-align:center;
+  font-family:'Montserrat',sans-serif;letter-spacing:3px;
+  color:var(--gold,#ffc400);font-size:.85rem;
+  padding:.4rem 0 .8rem;
+}
+.match-row{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  grid-template-areas:"home vs away" "venue venue venue";
+  align-items:center;gap:.75rem;
+  padding:1rem 1.1rem;
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:14px;
+  transition:border-color .25s ease, transform .25s ease;
+}
+.match-row:hover{border-color:rgba(255,196,0,.4);transform:translateY(-2px)}
+.match-team{display:flex;align-items:center;gap:.65rem;font-family:'Montserrat',sans-serif}
+.match-team img{width:38px;height:26px;object-fit:cover;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.match-team.home{grid-area:home;justify-content:flex-end;text-align:right}
+.match-team.away{grid-area:away;justify-content:flex-start;text-align:left}
+.match-team .t-name{font-weight:600}
+.match-vs{
+  grid-area:vs;display:flex;flex-direction:column;align-items:center;
+  min-width:110px;padding:0 .5rem;
+}
+.vs-time{font-family:'Anton','Oswald',sans-serif;font-size:1.25rem;color:#fff;line-height:1}
+.vs-text{color:var(--gold,#ffc400);font-family:'Montserrat',sans-serif;font-size:.7rem;letter-spacing:3px;margin-top:.15rem}
+.vs-stage{color:var(--muted,#a9b0c0);font-size:.7rem;margin-top:.2rem;letter-spacing:1px}
+.match-venue{
+  grid-area:venue;text-align:center;
+  color:var(--muted,#a9b0c0);font-size:.78rem;letter-spacing:1px;
+  padding-top:.5rem;border-top:1px dashed rgba(255,255,255,.06);margin-top:.5rem;
+}
+
+@media (max-width:520px){
+  .match-row{grid-template-columns:1fr;grid-template-areas:"home" "vs" "away" "venue";text-align:center}
+  .match-team.home,.match-team.away{justify-content:center;text-align:center}
+}
+
+/* ---------- POLL ---------- */
+.poll-card{border-radius:20px}
+.poll-input{
+  background:rgba(255,255,255,.04)!important;
+  border:1px solid rgba(255,255,255,.12)!important;
+  color:#fff!important;
+  border-radius:12px!important;
+  padding:.7rem .9rem!important;
+  font-family:'Montserrat',sans-serif;
+}
+.poll-input:focus{
+  border-color:var(--gold,#ffc400)!important;
+  box-shadow:0 0 0 .15rem rgba(255,196,0,.2)!important;
+  background:rgba(255,255,255,.06)!important;
+}
+.poll-input option{background:#111;color:#fff}
+
+.poll-results{display:flex;flex-direction:column;gap:.7rem;max-height:420px;overflow-y:auto;padding-right:.25rem}
+.poll-results::-webkit-scrollbar{width:6px}
+.poll-results::-webkit-scrollbar-thumb{background:rgba(255,196,0,.4);border-radius:3px}
+
+.poll-row{padding:.55rem .25rem}
+.poll-row-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:.3rem;font-family:'Montserrat',sans-serif;font-size:.9rem}
+.poll-team-name{display:inline-flex;align-items:center;gap:.55rem}
+.poll-team-name img{width:24px;height:16px;object-fit:cover;border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.4)}
+.poll-team-stat{color:var(--gold,#ffc400);font-weight:600;font-size:.85rem;letter-spacing:1px}
+
+.poll-bar{height:8px;background:rgba(255,255,255,.06);border-radius:999px;overflow:hidden}
+.poll-bar-fill{
+  height:100%;
+  background:linear-gradient(90deg,#ffae00,var(--gold,#ffc400));
+  border-radius:999px;
+  transition:width .8s cubic-bezier(.22,1,.36,1);
+  box-shadow:0 0 14px rgba(255,196,0,.45);
+}
+.poll-row.flash{animation:pollFlash 1.2s ease}
+@keyframes pollFlash{
+  0%{background:rgba(255,196,0,.18)}
+  100%{background:transparent}
+}
