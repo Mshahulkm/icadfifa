@@ -57,7 +57,7 @@
 
       entries.sort((a, b) => b.points - a.points);
 
-      lbBody.innerHTML = entries.slice(0, 10).map((p, i) => {
+      lbBody.innerHTML = entries.slice(0, 99).map((p, i) => {
         const rank = i + 1;
         const cls = rank === 1 ? 'gold' : rank === 2 ? 'silver' : rank === 3 ? 'bronze' : '';
         return `
