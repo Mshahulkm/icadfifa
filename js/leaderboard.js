@@ -70,7 +70,7 @@
       });
 
       // Show all entries whose rank is within top 10 distinct ranks
-      const visible = entries.filter(p => p.rank <= 10);
+      const visible = entries.filter(p => p.rank <= 20);
 
       lbBody.innerHTML = visible.map((p) => {
         const rank = p.rank;
